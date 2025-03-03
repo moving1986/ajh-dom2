@@ -1,0 +1,20 @@
+body {
+    color: #999;
+    cursor: url('../img/molot.png')16 16, auto;;
+}
+
+.game-field {
+    width: 570px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    box-sizing: border-box;
+    width: 140px;
+    height: 140px;
+    padding: 10px;
+
+    border: 1px solid #000;
+    border-radius: 10px;
+}
